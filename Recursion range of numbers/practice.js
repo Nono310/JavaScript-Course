@@ -10,3 +10,8 @@ function rangeOfNumbers(startNum, endNum) {
 //   below is a single line function
 
 const magic = () => new Date(); 
+
+// write arrow functions with parameters
+const myConcat = (arr1, arr2) => arr1.concat(arr2); 
+
+console.log(myConcat([1, 2], [3, 4, 5]));
