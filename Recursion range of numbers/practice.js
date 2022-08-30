@@ -7,3 +7,6 @@ function rangeOfNumbers(startNum, endNum) {
       return numbers;
     }  
   };
+//   below is a single line function
+
+const magic = () => new Date(); 
