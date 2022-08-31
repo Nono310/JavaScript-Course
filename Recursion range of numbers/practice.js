@@ -20,3 +20,8 @@ console.log(myConcat([1, 2], [3, 4, 5]));
 
 const increment = (number, value = 1) => number + value;
 console.log(increment());
+
+//Use the Rest Parameter with Function Parameters
+const sum = (...args) => {
+    return args.reduce((a, b) => a + b, 0);
+  }
