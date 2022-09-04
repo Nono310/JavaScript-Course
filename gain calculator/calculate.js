@@ -20,6 +20,7 @@ for (let i = 0; i <= bills.length ; i++){
  for(let j = 0; j<= gains.length; j++) {
      const totals = [bills[i] + gains[j]];
      console.log(`Bills ${bills} Gains ${gains} Totals array ${totals}`)
+     
  }
  
 }
