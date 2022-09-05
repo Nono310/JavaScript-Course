@@ -161,3 +161,11 @@ function subtract(x, y) {
 export default function(x, y){
   return x- y;
 }
+
+
+
+// Import a Default Export
+import subtract from "./math_functions.js";
+// Only change code above this line
+
+subtract(7,4);
