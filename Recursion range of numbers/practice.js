@@ -145,3 +145,19 @@ const lowercaseString = (string) => {
   return string.toLowerCase()
 }
 export{uppercaseString, lowercaseString};
+
+
+// Use * to Import Everything from a File
+import * as stringFunctions from './string_functions.js';
+// Only change code above this line
+
+stringFunctions.uppercaseString("hello");
+stringFunctions.lowercaseString("WORLD!");
+
+// Create an Export Fallback with export default
+function subtract(x, y) {
+  return x - y;
+}
+export default function(x, y){
+  return x- y;
+}
