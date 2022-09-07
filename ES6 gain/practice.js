@@ -1,0 +1,11 @@
+const gainCal = (bill) => bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.20;
+const bills = [125, 555, 44];
+   for (let i = 0; i <= bills.length ; i++){
+    //bills[i] represent each vallue of bill
+    const gains = [gainCal(bills[i])];
+    for(let j = 0; j <gains.length; j++) {
+        const totals = [bills[i] + gains[j]];
+        console.log(`Bills is ${bills} Gains is ${gains} Totals is ${totals}`)
+    }
+    
+   }
