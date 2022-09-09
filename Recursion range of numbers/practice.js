@@ -227,3 +227,8 @@ let myString = "Eleanor Roosevelt";
 let myRegex = /(Franklin|Eleanor).*Roosevelt/; // Change this line
 let result = myRegex.test(myString); // Change this line
 // After passing the challenge experiment with myString and see how the grouping works
+
+// Remove Whitespace from Start and End
+let hello = "   Hello, World!  ";
+let wsRegex = /^(\s+)(.+[^\s])(\s+)$/; // Change this line
+let result = hello.replace(wsRegex, '$2'); // Change this line
