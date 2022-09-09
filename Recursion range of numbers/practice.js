@@ -214,3 +214,10 @@ makeServerRequest.catch(error => {
 let username = "JackOfAllTrades";
 let userCheck = /^[a-z][a-z]+\d*$|^[a-z]\d\d+$/i; // Change this line
 let value = userCheck.test(username);
+
+// Positive and Negative Lookahead
+
+let sampleWord = "astronaut";
+let pwRegex = /(?=\w{6,})(?=.*\d{2,}.*)/; // Change this line
+let result = pwRegex.test(sampleWord);
+
